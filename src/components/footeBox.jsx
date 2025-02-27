@@ -43,7 +43,7 @@ function FooteBox() {
                         <li key={link.id} className='text-[12px] md:text-[15px] font-light text-[#FFFFFF99]'><Link href={link.link}>{link.label}</Link></li>
                     )))}
                 </ul>
-                <ul>
+                <ul className='md:hidden'>
                     {links2.map((link =>(
                         <li key={link.id} className='text-[12px] font-light text-[#FFFFFF99]'><Link href={link.link}>{link.label}</Link></li>
                     )))}
