@@ -56,7 +56,7 @@ const payments = [
 ]
 function PaymentOption() {
   return (
-    <div className='w-[80%] grid grid-cols-6 md:grid-cols-9 gap-3'>
+    <div className='w-[80%] md:w-[50%] grid grid-cols-6 md:grid-cols-9 gap-3'>
         {payments.map((payment =>(
             <Link href={payment.url} key={payment.id} >
                 <div className=' h-[65px] rounded border  flex items-center'>
